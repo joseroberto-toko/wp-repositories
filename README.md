@@ -9,4 +9,5 @@ Listando repositórios do Github
 ```
 const token = 'YOUR_TOKEN'.
 ```
+- Altera Configurações de links permanentes para Nome do post
 - Ative o plugin WP Repositories

@@ -9,7 +9,7 @@ Listando repositórios do Github
 ```
 const token = 'YOUR_TOKEN'.
 ```
-- Abra o arquivo `index.php` localizado no diretório `./wp-repositories/assets/js` e edite constant token
+- Abra o arquivo `index.php` localizado no diretório `./wp-repositories` e edite constant token
 ```
 WP_REPOSITORIES_TOKEN = 'YOUR_TOKEN'.
 ```

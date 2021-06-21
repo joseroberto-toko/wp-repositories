@@ -1,4 +1,4 @@
-const token = "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";
+const token = "YOUR TOKEN";
 
 // HEADER FOR THE API
 const headers = {

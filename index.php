@@ -22,7 +22,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Currently plugin version.
  */
 define( 'WP_REPOSITORIES_VERSION', '1.0.0' );
-define( 'WP_REPOSITORIES_TOKEN', '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' );
+define( 'WP_REPOSITORIES_TOKEN', 'YOUR TOKEN' );
 
 /**
  * Loads and registers dependencies.
@@ -78,6 +78,9 @@ function delete_files_theme(){
 	rmdir(get_template_directory()  . '/templates');
 }
 
+/**
+ * Get JSON API GitHub
+ */
 function get_git_api($user,$type = false, $slug=false){
 	
 	switch ($type) {
@@ -104,6 +107,9 @@ function get_git_api($user,$type = false, $slug=false){
 	return $output;
 }
 
+/**
+ * Get JSON User
+ */
 function get_user_repositories($user){
 	$user_data = get_git_api($user);
 	$user_repo = get_git_api($user,true);
@@ -114,6 +120,9 @@ function get_user_repositories($user){
 	return $output;
 }
 
+/**
+ * Get JSON Stargazer repository 
+ */
 function get_repository_stargazers($user,$slug){
 	$output = get_git_api($user,2, $slug);
 	return $output;

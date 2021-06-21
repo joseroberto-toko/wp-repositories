@@ -5,7 +5,7 @@ Listando repositórios do Github
 
 - Clona o repositorio
 - Abra o projeto com seu editor exemplo: Vs-Code.
-- Abra o arquivo `frontend.js` localizado no diretório `wp-content/wp-plugins/wp-repositories/assets/js` e edite constant token
+- Abra o arquivo `frontend.js` localizado no diretório `wp-content/plugins/wp-repositories/assets/js` e edite constant token
 ```
 const token = 'YOUR_TOKEN'.
 ```
